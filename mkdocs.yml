@@ -1,0 +1,30 @@
+nav:
+  - Operations:
+    - Backups: backups.md
+site_name: Song Me Documentation
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  logo: assets/SongMe_vertical_1c_white.png
+#  features:
+#    - header.autohide
+
+extra_css:
+  - assets/stylesheets/extra.css
+  
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
